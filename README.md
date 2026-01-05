@@ -156,48 +156,6 @@ Telegram membatasi aktivitas akun jika terlalu sering request. Solusi:
 - Kurangi jumlah akun per sesi
 - Tunggu beberapa jam sebelum coba lagi
 
-### Keamanan Data
-⚠️ **PENTING**: File-file berikut adalah SENSITIVE dan JANGAN dibagikan:
-- `sessions/` - Token login Telegram
-- `accounts.json` - API ID, API Hash, nomor HP
-- `.env` - Environment variables
-
-Pastikan `.gitignore` sudah benar sebelum push ke GitHub.
-
-### Backup Data
-Backup file penting secara berkala:
-```bash
-copy accounts.json accounts.json.backup
-copy posted.json posted.json.backup
-copy analytics.json analytics.json.backup
-```
-
-## 🔄 Update & Version Control
-
-### Inisialisasi Git
-```bash
-cd d:\Multi-Akun-Telegram
-git init
-git config user.name "Nama Anda"
-git config user.email "email@gmail.com"
-git add .
-git commit -m "Initial commit"
-```
-
-### Push ke GitHub
-```bash
-git remote add origin https://github.com/USERNAME/Multi-Akun-Telegram.git
-git branch -M main
-git push -u origin main
-```
-
-### Update Kode Setelah Perubahan
-```bash
-git add .
-git commit -m "Deskripsi perubahan yang dibuat"
-git push
-```
-
 ## 🐛 Troubleshooting
 
 | Error | Solusi |
