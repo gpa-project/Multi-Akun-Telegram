@@ -1,0 +1,14 @@
+[
+    {
+        "id": "nama_akun_1",
+        "phone": "+6281234567890",
+        "api_id": 1234567,
+        "api_hash": "abcdef1234567890abcdef1234567890"
+    },
+    {
+        "id": "nama_akun_2",
+        "phone": "+6281234567891",
+        "api_id": 7654321,
+        "api_hash": "0987654321fedcba0987654321fedcba"
+    }
+]
